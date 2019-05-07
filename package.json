@@ -1,0 +1,14 @@
+{
+  "name": "dialogflow-fulfillment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naveen Sakthivel",
+  "license": "ISC",
+  "dependencies": {
+    "actions-on-google": "^2.6.0"
+  }
+}

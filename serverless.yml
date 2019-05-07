@@ -1,0 +1,15 @@
+service: dialogflow-fulfillment
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-2
+
+functions:
+  hello:
+    handler: handler.fulfillment
+    events:
+      - http:
+          path: /
+          method: post
